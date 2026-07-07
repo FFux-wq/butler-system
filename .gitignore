@@ -1,0 +1,93 @@
+﻿# 系统文件
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# 编译产物（MCU / FPGA / C / C++）
+build/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.crf
+*.htm
+*.dep
+*.bak
+
+# FPGA（Vivado / Quartus）
+*.jou
+*.log
+*.str
+*.rpt
+*.bit
+*.mcs
+*.prm
+*.sbit
+*.dcp
+*.xpe
+*.xed
+*.xpr.bak
+*.cache
+*.hw
+*.hw_platform
+*.gen
+*.ip_user_files
+*.sim
+*.srcs
+*.xdc.bak
+*.xml.bak
+*.webtalk*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 大文件 / 工具链
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# 日志
+*.log
+
+# --------------------------------------------------
+# 管家系统 — 以下为私人数据，不提交到公开仓库
+# --------------------------------------------------
+
+# 管家工作区（私人进度 / 身份 / 偏好 / 时间线 / 任务队列）
+系统源文件/个人知识库/.管家/
+
+# 库级个人数据文件（由用户自行决定是否公开）
+系统源文件/个人知识库/库级md文件/跨项目索引.md
+系统源文件/个人知识库/库级md文件/项目总结.md
+系统源文件/个人知识库/库级md文件/用户画像.md
+系统源文件/个人知识库/库级md文件/模块芯片理解.md
+系统源文件/个人知识库/库级md文件/知识库全局地图.md
